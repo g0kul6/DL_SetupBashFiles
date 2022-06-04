@@ -2,7 +2,7 @@
 
 #some art
 sudo apt install figlet
-figlet “Deep Reinforcement learning”
+figlet “Deep learning”
 
 echo "Fuck everything bash script rules"  
 
