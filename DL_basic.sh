@@ -26,3 +26,5 @@ mamba install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch-lts
 mamba install -c conda-forge matplotlib
 mamba install -c conda-forge tensorboard
 mamba install -c conda-forge pandas 
+mamba install -c conda-forge numpy
+ 
