@@ -21,5 +21,8 @@ eval "$(conda shell.bash hook)"
 conda activate $env_name
 conda install -c conda-forge mamba
 
-echo "for me I like to install pytorch first no matter what"
+echo "for me I like to install pytorch,tensorboard first no matter what"
 mamba install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch-lts
+mamba install -c conda-forge matplotlib
+mamba install -c conda-forge tensorboard
+mamba install -c conda-forge pandas 
